@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.firstscreen {
+    background-color: #fece00;
+}
+
+.secondscreen {
+    background-color: #990000;
+}
+
+.test {
+    background-color: #00ff00;
+    width: 50vw;
+    height: 50vw;
+
+}
+
+h2 { text-align: center;
+    font-size: 5vh;
+    background-color: #990000;
+    width: 90%;
+    /* height: 100%; */
+    /* line-height:100%; */
+    padding: 50px;
+}
